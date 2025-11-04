@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matieres xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ecole.xsd">
+    <matiere>
+        <codematiere>MAT-001</codematiere>
+        <nom>Mathématiques</nom>
+        <coefficient>3</coefficient>
+        <professeur>Mr Diop</professeur>
+    </matiere>
+        <matiere>
+            <codematiere>MAT-002</codematiere>
+            <nom>Français</nom>
+            <coefficient>5</coefficient>
+            <professeur>Mr Ndiaye</professeur>
+        </matiere>
+            <matiere>
+                <codematiere>MAT-003</codematiere>
+                <nom>Anglais</nom>
+                <coefficient>2</coefficient>
+                <professeur>Mme Sall</professeur>
+            </matiere>
+                <matiere>
+                    <codematiere>MAT-004</codematiere>
+                    <nom>SVT</nom>
+                    <coefficient>2</coefficient>
+                    <professeur>Mme Fall</professeur>
+                </matiere>
+                    <matiere>
+                        <codematiere>MAT-005</codematiere>
+                        <nom>, Physique-Chimie</nom>
+                        <coefficient>4</coefficient>
+                        <professeur>Mr Diouf</professeur>
+                    </matiere>
+                            <matiere>
+                                <codematiere>MAT-006</codematiere>
+                                <nom> Histoire-Géo</nom>
+                                <coefficient>5</coefficient>
+                                <professeur>Mme Kane</professeur>
+                            </matiere>
+                                <matiere>
+                                    <codematiere>MAT-007</codematiere>
+                                    <nom>EPS</nom>
+                                    <coefficient>1</coefficient>
+                                    <professeur>Mr Faye </professeur>
+                                </matiere>
+                           
+</matieres>
+   

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+<xs:element name="eleve">
+    <xs:complexType >
+      <xs:sequence>
+        <xs:element name="matricule" type="xs:String"/>
+        <xs:element name="nom"/>
+        <xs:element name="prenom"/>
+        <xs:element name="DateNaissance" type="xs:date"/>
+          <xs:element name="Classe" >
+               <xs:simpleType >
+                 <xs:restriction base="xs:string">
+                    <xs:enumeration value="6ème"/>
+                    <xs:enumeration value="5ème"/>
+                    <xs:enumeration value="4ème"/>
+                    <xs:enumeration value="3ème"/>
+                    <xs:enumeration value="2nde"/>
+                    <xs:enumeration value="1ère"/>
+                    <xs:enumeration value="Terminale"/>
+                  </xs:restriction>
+               </xs:simpleType>
+          </xs:element>
+              <xs:element name="Sexe" >
+                <xs:simpleType >
+                  <xs:restriction base="xs:string">
+                      <xs:enumeration value="M"/>
+                      <xs:enumeration value="F"/>
+                   </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+       </xs:sequence>
+    </xs:complexType>  
+</xs:element>  
+<xs:element name="matieres">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="matiere" type="xs:string" maxOccurs="unbounded"/>
+        <xs:element name="Codematiere">
+        <xs:simpleType >
+    <xs:restriction base="xs:string">
+      <xs:pattern value="MAT-\d{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+      <xs:element name="nom" >
+  <xs:simpleType >
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Mathématiques"/>
+      <xs:enumeration value="Français"/>
+      <xs:enumeration value="Anglais"/>
+      <xs:enumeration value="SVT"/>
+      <xs:enumeration value="Physique-Chimie"/>
+      <xs:enumeration value="Histoire-Géo"/>
+      <xs:enumeration value="EPS"/>
+    </xs:restriction>
+  </xs:simpleType>
+  </xs:element>
+      <xs:element name="Coefficient">
+  <xs:simpleType >
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+      <xs:element name="professeur" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+   <xs:complexType>
+   <xs:sequence>
+  <xs:element name="notes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="note" type="xs:decimal" maxOccurs="unbounded"/>
+         <xs:element name="matricule" >
+         <xs:simpleType >
+    <xs:restriction base="xs:string">
+      <xs:pattern value="ELEVE-\d{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+   </xs:element>
+
+      <xs:element name="Codematiere">
+       <xs:simpleType >
+    <xs:restriction base="xs:string"/>
+      <xs:pattern value="MAT-\d{3}"/>
+  </xs:simpleType>
+  </xs:element>
+
+    <xs:element name="trimestre"> 
+    <xs:simpleType >
+    <xs:restriction base="xs:integer">
+      <xs:enumeration value="1"/>
+      <xs:enumeration value="2"/>
+      <xs:enumeration value="3"/>
+    </xs:restriction>
+  </xs:simpleType>
+    </xs:element> 
+
+    <xs:element name="note">
+     <xs:simpleType >
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="type">
+    <xs:simpleType >
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Devoir"/>
+      <xs:enumeration value="Interrogation"/>
+      <xs:enumeration value="Examen"/>
+    </xs:restriction>
+  </xs:simpleType>
+     </xs:element>
+     <xs:element name="date" type="xs:date"/>
+      </xs:sequence>
+      </xs:complexType>
+
+      <xs:element name="Bulletins">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Bulletin" type="xs:string" maxOccurs="unbounded"/>
+        <xs:element name="matricule" >
+        <xs:simpleType >
+    <xs:restriction base="xs:string">
+      <xs:pattern value="ELEVE-\d{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+      </xs:element>
+      <xs:element name="trimestre">
+      <xs:simpleType >
+    <xs:restriction base="xs:integer">
+      <xs:enumeration value="1"/>
+      <xs:enumeration value="2"/>
+      <xs:enumeration value="3"/>
+    </xs:restriction>
+  </xs:simpleType>
+       </xs:element>
+      <xs:element name="anneescolaire">
+       <xs:simpleType >
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{4}-\d{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  </xs:element>
+      <xs:element name="moyenne">
+      <xs:complexType >
+    <xs:sequence>
+      <xs:element name="codematiere" type="xs:string"/>
+      <xs:element name="nom" type="xs:string"/>
+      <xs:element name="moyenne" type="xs:decimal"/>
+    </xs:sequence>
+  </xs:complexType>
+       </xs:element>
+      <xs:element name="moyennegenerale" type="xs:decimal"/>
+      <xs:element name="rang" type="xs:integer"/>
+      <xs:element name="appreciationgenerale" type="xs:string"/>
+      <xs:element name="decision">
+      <xs:simpleType >
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Admis"/>
+      <xs:enumeration value="Ajourné"/>
+      <xs:enumeration value="Redouble"/>
+    </xs:restriction>
+  </xs:simpleType>
+  </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+ </xs:sequence>
+ </xs:complexType>
+</xs:element>
+</xs:schema>  

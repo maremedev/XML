@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eleves xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ecole.xsd">
+   <eleve>
+        <matricule>ELEVE-001</matricule>
+        <nom>Fall</nom>
+        <prenom>Amina</prenom>
+        <DateNaissance>15-12-2003</DateNaissance>
+        <Classe>6ème</Classe>
+        <Sexe>F</Sexe>
+    </eleve>
+
+        <eleve>
+            <matricule>ELEVE-002</matricule>
+            <nom>Ndiaye</nom>
+            <prenom>Moussa</prenom>
+            <DateNaissance>12-05-2015</DateNaissance>
+            <Classe>2nde</Classe>
+            <Sexe>M</Sexe>
+        </eleve>
+
+        <eleve>
+            <matricule>ELEVE-003</matricule>
+            <nom>Diop</nom>
+            <prenom>Anta</prenom>
+            <DateNaissance>17-03-2018</DateNaissance>
+            <Classe>4ème</Classe>
+            <Sexe>F</Sexe>
+        </eleve>
+
+         <eleve>
+            <matricule>ELEVE-004</matricule>
+            <nom>Diagne</nom>
+            <prenom>Awa</prenom>
+            <DateNaissance>10-01-2015</DateNaissance>
+            <Classe>Terminale</Classe>
+            <Sexe>F</Sexe>
+        </eleve>
+
+         <eleve>
+            <matricule>ELEVE-005</matricule>
+            <nom>Samb</nom>
+            <prenom>Doudou</prenom>
+            <DateNaissance>14-11-2021</DateNaissance>
+            <Classe>3ème</Classe>
+            <Sexe>M</Sexe>
+        </eleve>
+        
+         <eleve>
+            <matricule>ELEVE-006</matricule>
+            <nom>Sarr</nom>
+            <prenom>Khady</prenom>
+            <DateNaissance>20-09-2019</DateNaissance>
+            <Classe>1ère</Classe>
+            <Sexe>F</Sexe>
+        </eleve>
+</eleves>

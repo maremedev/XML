@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ecole.xsd">
+    <note>
+        <matricule>ELEVE-001</matricule>
+        <codematiere>Mat-001</codematiere>
+        <trimestre>1</trimestre>
+        <note>15.5</note>
+        <type>Devoir</type>
+        <date>12-03-2025</date>
+    </note>
+
+        <note>
+            <matricule>ELEVE-002</matricule>
+            <codematiere>Mat-002</codematiere>
+            <trimestre>1</trimestre>
+            <note>18.5</note>
+            <type>Examen</type>
+            <date>13-09-2022</date>
+        </note>
+
+        <note>
+            <matricule>ELEVE-003</matricule>
+            <codematiere>Mat-003</codematiere>
+            <trimestre>1</trimestre>
+            <note>12.5</note>
+            <type>Intérrogation</type>
+            <date>14-12-2021</date>
+        </note>
+
+            <note>
+                <matricule>ELEVE-004</matricule>
+                <codematiere>Mat-004</codematiere>
+                <trimestre>1</trimestre>
+                <note>14.5</note>
+                <type>Devor</type>
+                <date>17-11-2020</date>
+            </note>
+
+                <note>
+                    <matricule>ELEVE-005</matricule>
+                    <codematiere>Mat-005</codematiere>
+                    <trimestre>1</trimestre>
+                    <note>20</note>
+                    <type>Examen</type>
+                    <date>10-10-2015</date>
+                </note>
+
+                    <note>
+                        <matricule>ELEVE-006</matricule>
+                        <codematiere>Mat-006</codematiere>
+                        <trimestre>1</trimestre>
+                        <note>14.00</note>
+                        <type>Examen</type>
+                        <date>04-02-2018</date>
+                    </note>
+
+                        <note>
+                            <matricule>ELEVE-006</matricule>
+                            <codematiere>Mat-006</codematiere>
+                            <trimestre>1</trimestre>
+                            <note>19</note>
+                            <type>Devoir</type>
+                            <date>07-04-2023</date>
+                        </note>
+
+                            <note>
+                                <matricule>ELEVE-007</matricule>
+                                <codematiere>Mat-007</codematiere>
+                                <trimestre>1</trimestre>
+                                <note>19.5</note>
+                                <type>Intérrogation</type>
+                                <date>12-07-2022</date>
+                            </note>
+
+                                <note>
+                                    <matricule>ELEVE-008</matricule>
+                                    <codematiere>Mat-008</codematiere>
+                                    <trimestre>1</trimestre>
+                                    <note>10.00</note>
+                                    <type>Intérrogation</type>
+                                    <date>11-08-2022</date>
+                                </note>
+
+                                    <note>
+                                        <matricule>ELEVE-009</matricule>
+                                        <codematiere>Mat-009</codematiere>
+                                        <trimestre>1</trimestre>
+                                        <note>13.5</note>
+                                        <type>Examen</type>
+                                        <date>07-09-2026</date>
+                                    </note>
+
+                                        <note>
+                                            <matricule>ELEVE-010</matricule>
+                                            <codematiere>Mat-010</codematiere>
+                                            <trimestre>1</trimestre>
+                                            <note>17.00</note>
+                                            <type>Devoir</type>
+                                            <date>09-09-2012</date>
+                                        </note>
+
+                                            <note>
+                                                <matricule>ELEVE-011</matricule>
+                                                <codematiere>Mat-011</codematiere>
+                                                <trimestre>1</trimestre>
+                                                <note>15.00</note>
+                                                <type>Intérrogation</type>
+                                                <date>03-12-2014</date>
+                                            </note>
+
+                                                <note>
+                                                    <matricule>ELEVE-012</matricule>
+                                                    <codematiere>Mat-012</codematiere>
+                                                    <trimestre>1</trimestre>
+                                                    <note>14.00</note>
+                                                    <type>Devoir</type>
+                                                    <date>06-12-2009</date>
+                                                </note>
+
+                                                    <note>
+                                                        <matricule>ELEVE-013</matricule>
+                                                        <codematiere>Mat-013</codematiere>
+                                                        <trimestre>1</trimestre>
+                                                        <note>13.5</note>
+                                                        <type>Intérrogation</type>
+                                                        <date>13-12-2005</date>
+                                                    </note>
+
+                                                        <note>
+                                                            <matricule>ELEVE-014</matricule>
+                                                            <codematiere>Mat-014</codematiere>
+                                                            <trimestre>1</trimestre>
+                                                            <note>12.5</note>
+                                                            <type>Devoir</type>
+                                                            <date>15-11-2017</date>
+                                                        </note>
+                                                        
+                                                            <note>
+                                                              <matricule>ELEVE-015</matricule>
+                                                              <codematiere>Mat-015</codematiere>
+                                                              <trimestre>1</trimestre>
+                                                              <note>10.5</note>
+                                                              <type>Examen</type>
+                                                              <date>22-10-2020</date>
+                                                            </note>
+ </notes>
